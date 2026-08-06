@@ -14,7 +14,7 @@ export const siteConfig = {
     secondaryCta: "Conheça meu trabalho"
   },
   about: {
-    title: "Uma advocacia feita de escuta e precisão.",
+    title: "Uma advocacia feita de escuta  e precisão.",
     text: [
       "Com mais de uma década dedicada ao Direito de Família, entendi que por trás de cada processo existe uma trajetória única e, na maioria das vezes, um momento de profunda vulnerabilidade.",
       "Minha missão não é apenas aplicar a lei, mas criar um espaço seguro onde você possa ser ouvida, compreendida e guiada com empatia e técnica impecável. Acredito que a resolução de conflitos não precisa ser destrutiva, e que a verdadeira vitória é a paz de espírito e a segurança para reconstruir."

@@ -25,34 +25,34 @@ export function Hero() {
       {/* ── Decorative geometric elements ── */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         {/* Top-right corner arc */}
-        <motion.div
+        <div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 2, ease: [0.16, 1, 0.3, 1] }}
           className="absolute -top-24 -right-24 w-[480px] h-[480px] rounded-full border border-[#D6B48A]/20"
         />
-        <motion.div
+        <div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 2.2, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
           className="absolute -top-10 -right-10 w-[320px] h-[320px] rounded-full border border-[#A08A78]/15"
         />
         {/* Bottom-left accent line */}
-        <motion.div
+        <div
           initial={{ scaleX: 0, opacity: 0 }}
           animate={{ scaleX: 1, opacity: 1 }}
           transition={{ duration: 1.4, delay: 1, ease: [0.16, 1, 0.3, 1] }}
           className="absolute bottom-24 left-0 w-[180px] h-px bg-gradient-to-r from-transparent via-[#A08A78]/40 to-transparent origin-left"
         />
         {/* Small floating diamond */}
-        <motion.div
+        <div
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, delay: 1.4 }}
           className="absolute top-[38%] left-[44%] w-2 h-2 rotate-45 bg-[#D6B48A]/40 rounded-[1px]"
         />
         {/* Vertical rule — left gutter */}
-        <motion.div
+        <div
           initial={{ scaleY: 0, opacity: 0 }}
           animate={{ scaleY: 1, opacity: 1 }}
           transition={{ duration: 1.6, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
@@ -66,7 +66,7 @@ export function Hero() {
         {/* ── LEFT — Editorial text ── */}
         <div className="flex flex-col justify-center order-2 lg:order-1">
           {/* Badge */}
-          <motion.div
+          <div
             initial={{ opacity: 0, x: -16 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -76,7 +76,7 @@ export function Hero() {
             <span className="uppercase tracking-[0.22em] text-[10px] text-[#A08A78] font-medium font-sans">
               {siteConfig.hero.badge}
             </span>
-          </motion.div>
+          </div>
 
           {/* Headline */}
           <motion.h1
@@ -91,7 +91,7 @@ export function Hero() {
           </motion.h1>
 
           {/* Divider */}
-          <motion.div
+          <div
             initial={{ scaleX: 0, opacity: 0 }}
             animate={{ scaleX: 1, opacity: 1 }}
             transition={{ duration: 1, delay: 0.7 }}
@@ -109,7 +109,7 @@ export function Hero() {
           </motion.p>
 
           {/* CTAs */}
-          <motion.div
+          <div
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.95 }}
@@ -131,10 +131,10 @@ export function Hero() {
             >
               {siteConfig.hero.secondaryCta}
             </a>
-          </motion.div>
+          </div>
 
           {/* Credentials strip */}
-          <motion.div
+          <div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1.3 }}
@@ -145,7 +145,7 @@ export function Hero() {
                 {c}
               </span>
             ))}
-          </motion.div>
+          </div>
         </div>
 
         {/* ── RIGHT — Portrait frame ── */}
@@ -171,7 +171,7 @@ export function Hero() {
 
               {/* Monogram / placeholder identity */}
               <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
-                <motion.div
+                <div
                   initial={{ opacity: 0, scale: 0.9 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 1.2, delay: 0.8 }}
@@ -187,7 +187,7 @@ export function Hero() {
                     alt="Eva Xavier"
                     className="absolute inset-0 w-full h-full object-cover"
                   />
-                </motion.div>
+                </div>
               </div>
 
               {/* Bottom gradient fade for depth */}
@@ -206,32 +206,32 @@ export function Hero() {
             </motion.div>
 
             {/* Floating top-right accent */}
-            <motion.div
+            <div
               initial={{ opacity: 0, x: -10, y: -10 }}
               animate={{ opacity: 1, x: 0, y: 0 }}
               transition={{ duration: 1, delay: 1.3 }}
               className="absolute -top-4 -right-4 w-12 h-12 rounded-full bg-[#D6B48A]/30 border border-[#D6B48A]/40 flex items-center justify-center"
             >
               <div className="w-3 h-3 rounded-full bg-[#A08A78]/60" />
-            </motion.div>
+            </div>
           </motion.div>
         </div>
       </div>
 
       {/* ── Scroll cue ── */}
-      <motion.div
+      <div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 2 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
-        <motion.div
+        <div
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
           className="w-px h-8 bg-gradient-to-b from-[#A08A78]/50 to-transparent"
         />
         <span className="text-[9px] uppercase tracking-[0.25em] text-[#A08A78]/50 font-sans">scroll</span>
-      </motion.div>
+      </div>
     </section>
   );
 }
