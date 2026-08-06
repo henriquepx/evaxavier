@@ -63,11 +63,11 @@ export function Contact() {
             className="w-full h-[400px] lg:h-full min-h-[400px] bg-background/5 relative"
           >
             {/* Placeholder for map - visually aesthetic */}
-            <div className="absolute inset-0 flex items-center justify-center flex-col gap-4 text-background/40">
-              <MapPin className="w-12 h-12 mb-4 opacity-50" />
-              <p className="font-serif text-2xl">{siteConfig.contact.address.split(',')[0]}</p>
-              <p className="font-sans text-sm tracking-widest uppercase">São Paulo, SP</p>
-            </div>
+            <img
+                    src="/footer.webp"
+                    alt="Eva Xavier"
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
             <div className="absolute inset-0 border border-background/10 scale-[0.95]" />
           </motion.div>
 

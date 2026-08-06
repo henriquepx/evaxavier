@@ -182,13 +182,11 @@ export function Hero() {
                     <span className="font-serif text-[#F8F6F2] text-3xl font-light tracking-wide">EX</span>
                   </div>
                   {/* Photo instruction */}
-                  <div className="flex flex-col items-center gap-2">
-                    <div className="w-10 h-px bg-[#F8F6F2]/40" />
-                    <span className="text-[#F8F6F2]/60 text-[10px] uppercase tracking-[0.2em] font-sans">
-                      Foto de Eva Xavier
-                    </span>
-                    <div className="w-10 h-px bg-[#F8F6F2]/40" />
-                  </div>
+                      <img
+                    src="/frenteeva2.jpg"
+                    alt="Eva Xavier"
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
                 </motion.div>
               </div>
 

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { siteConfig } from '@/config';
-import evaAbout from '@/assets/eva_about.jpg';
+import evaAbout from '/eva2.webp';
 
 export function About() {
   return (

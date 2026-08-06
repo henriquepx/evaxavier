@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
-import office1 from '@/assets/office_1.jpg';
-import office2 from '@/assets/office_2.jpg';
-import office3 from '@/assets/office_3.jpg';
-import office4 from '@/assets/office_4.jpg';
+import office1 from '/escritorio1.webp';
+import office2 from '/escritorio2.webp';
+import office3 from '/escritorio3.webp';
+import office4 from '/escritorio5.jpg';
 
 const images = [
   { src: office1, alt: "Interior do escritório - Sala de reuniões", className: "col-span-2 row-span-2 aspect-square md:aspect-auto md:h-[600px]" },

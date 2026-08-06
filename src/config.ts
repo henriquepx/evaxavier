@@ -1,15 +1,15 @@
 export const siteConfig = {
   contact: {
-    whatsapp: "+55 11 99999-9999",
-    whatsappLink: "https://wa.me/5511999999999",
-    instagram: "@evaxavier.adv",
-    email: "contato@evaxavier.adv.br",
-    address: "Av. Faria Lima, 3000, Jd. Paulistano, São Paulo - SP",
+    whatsapp: "+55 21 99614-3662",
+    whatsappLink: "https://wa.me/5521996143662",
+    instagram: "@eva_xavierr",
+    email: "ex.evaxavier@gmail.com",
+    address: "Av Rio Branco, 45, Centro da Cidade, Rio de Janeiro - RJ",
   },
   hero: {
     badge: "Advocacia Humanizada",
     headline: "Defender direitos é também acolher histórias.",
-    subtext: "Family Law, Mediation and Humanized legal assistance for women seeking security, guidance and respectful conflict resolution.",
+    subtext: "Direito de Família, mediação e assistência jurídica humanizada para mulheres que buscam segurança, orientação e uma resolução respeitosa de conflitos.",
     primaryCta: "Agendar Consulta",
     secondaryCta: "Conheça meu trabalho"
   },
@@ -108,7 +108,7 @@ export const siteConfig = {
     }
   ],
   footer: {
-    registration: "OAB/SP 123.456",
-    copyright: "© 2024 Eva Xavier. Todos os direitos reservados."
+    registration: "OAB/RJ 182717",
+    copyright: "© 2026 Eva Xavier. Todos os direitos reservados."
   }
 };
