@@ -8,12 +8,26 @@ export function About() {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-8 items-center">
           
-          <motion.div 
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 1, ease: "easeOut" }}
-            className="lg:col-span-5 relative"
+          <motion.div
+            initial={{
+              opacity: 0.15,
+              x: -150,
+              scale: 0.98,
+            }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+              scale: 1,
+            }}
+            viewport={{
+              once: true,
+              margin: '-20% 0px -20% 0px',
+            }}
+            transition={{
+              duration: 2.4,
+              ease: [0.16, 1, 0.3, 1],
+            }}
+            className="relative lg:col-span-5"
           >
             <div className="aspect-[4/5] relative w-full overflow-hidden">
               <img 
@@ -23,7 +37,6 @@ export function About() {
               />
               <div className="absolute inset-0 border border-border/40 scale-[0.96]" />
             </div>
-            {/* Decorative block */}
             <div className="absolute -bottom-8 -right-8 w-64 h-64 bg-secondary/20 -z-10 blur-3xl" />
           </motion.div>
 

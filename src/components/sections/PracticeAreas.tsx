@@ -32,7 +32,6 @@ export function PracticeAreas() {
               transition={{ duration: 0.8, delay: i * 0.1 }}
               className="bg-card p-12 md:p-16 flex flex-col group relative overflow-hidden"
             >
-              {/* Hover effect background */}
               <div className="absolute inset-0 bg-secondary/10 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out" />
               
               <div className="relative z-10 flex flex-col h-full">

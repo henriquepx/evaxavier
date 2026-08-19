@@ -62,7 +62,6 @@ export function Contact() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="w-full h-[400px] lg:h-full min-h-[400px] bg-background/5 relative"
           >
-            {/* Placeholder for map - visually aesthetic */}
             <img
                     src="/footer.webp"
                     alt="Eva Xavier"
